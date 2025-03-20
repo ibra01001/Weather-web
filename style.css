@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(54, 48, 48);
+    color: aliceblue;
+    font-family: monospace;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.info

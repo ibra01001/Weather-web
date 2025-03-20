@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="info">
+    <h1>Weather</h1>
     
+    <form name="weather-form" id="weather-form">
+        <div class="wilaya-input">
+            <label for="wilayas">Select any Wilaya</label>
+            <select name="wilayas" id="wilaya">
+            </select>
+        </div>
+        <div class="wilayaname"></div>
+        <ul id="weather-data">
+            
+        </ul>
+    </form>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
