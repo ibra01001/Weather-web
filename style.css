@@ -1,12 +1,101 @@
 *{
-    background-color: rgb(54, 48, 48);
-    color: aliceblue;
-    font-family: monospace;
+
+    font-family:fantasy
     
+   
+    
+}
+html{
+    background-image: url(./images/Algeria.jpg); 
+    /* background-image: url(./images/La_Grande_Poste.jpg);  */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    scrollbar-width: none;
 }
 
 li{
     list-style: none;
+    font-size: 2vh;
+    margin-bottom: 1%;
 }
 
-.info
+.info{
+    
+    width: 100%;
+    padding: 2%;
+    height: 100vh;
+    
+}
+
+select{
+background-color: aliceblue ;
+color: black;
+border: none;
+padding: 0.5%;
+border-radius: 5px;
+
+}
+
+option{
+    background-color: aliceblue ;
+    
+}
+
+h1{
+    font-size: 5vh;
+}
+.about{
+    
+    font-size: 3vh;
+    padding-bottom: 30px; ;
+    position: relative;
+    top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes fadein{
+        100% { opacity: 0; }
+    100% { opacity: 1; transform: translateX(-20px); }
+}
+
+.about{
+    animation-name: fadein;
+    animation: fadein 750ms ease-in-out forwards;
+    
+}
+
+form{
+    animation-name: fadein;
+    animation: fadein 750ms ease-in-out forwards;
+    background-color: rgba(240, 248, 255, 0.616);
+    padding: 2%;
+    width: 40%;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+}
+
+.footer{
+    background-color: rgba(240, 248, 255, 0.76);
+    width: 98%;
+    height: 10vh;
+    padding: 10%;
+    margin: -0.6%;
+    
+}
+#preloader{
+    background: url(./images/weathergif2.gif) no-repeat center center;
+    border-radius: 100%;
+    background-size: 100%; ;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+   
+    z-index: 9999;
+
+}
